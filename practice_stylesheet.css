@@ -1,0 +1,23 @@
+h1{
+    margin-bottom: 0;
+}
+
+h4{
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+p{
+    text-indent: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/*Make every EVEN row have a slight blue back ground colour to help readability*/
+tr:nth-child(even) {
+    background-color: rgb(216, 255, 242);
+}
